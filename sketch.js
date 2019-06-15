@@ -4,10 +4,6 @@ let player = 1;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(150);
-	if (player === 2) {
-		player = 1;
-		jogo[0][0] = 2;
-	}
 }
 
 function draw() {
